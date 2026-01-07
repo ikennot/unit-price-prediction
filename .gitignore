@@ -1,0 +1,8 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Training files not needed for API
+data.csv
+train_model.py
