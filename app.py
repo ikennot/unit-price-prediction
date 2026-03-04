@@ -3,8 +3,8 @@ import joblib
 
 app = Flask(__name__)
 
-MODEL_PATH = 'model/unit_price_model.joblib'
-SCALER_PATH = 'model/scaler.joblib'
+MODEL_PATH = 'model/new_unit_price_model.joblib'
+SCALER_PATH = 'model/new_scaler.joblib'
 
 model = joblib.load(MODEL_PATH)
 scaler = joblib.load(SCALER_PATH)
